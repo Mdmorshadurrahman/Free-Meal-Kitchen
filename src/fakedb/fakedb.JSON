@@ -1,0 +1,62 @@
+[
+    {
+        "dishName": "Shorshe Ilish (Hilsa Fish with Mustard Curry)",
+        "id": 1,
+        "image": "https://ibb.co/y4g2gDR",
+        "completionTime": 40,
+        "dishDescription": "Shorshe Ilish is a dish consisting of hilsa fish cooked in savory mustard gravy, commonly served with white rice for a hearty, must-try meal."
+    },
+    {
+        "dishName": "Kacchi Biriyani (Mutton Biriyani)",
+        "id": 2,
+        "image": "https://ibb.co/SR1Z5jH",
+        "completionTime": 60,
+        "dishDescription": "The rice, which is first washed and then mixed with spices, is added on top, before the meat and rice are cooked together. potato is added to the mix to add body to the dish."
+    },
+    {
+        "dishName": "Beef Kala Bhuna (Beef Curry)",
+        "id": 3,
+        "image": "https://ibb.co/8BPYgD4",
+        "completionTime": 40,
+        "dishDescription": "The meat is cooked with a long list of traditional spices and yogurt. It is cooked for much longer than in other curries, which gives the meat a blackish hue. It also tastes different than regular beef curry."
+    },
+    {
+        "dishName": "Bhuna Khichuri with Dim Bhaji (Yellow Rice with Omelette)",
+        "id": 4,
+        "image": "https://ibb.co/hfWyx7r",
+        "completionTime": 45,
+        "dishDescription": "Khichuri, also known as Khichdi in India, is made with rice and lentils and is yellow in color. The rice and lentils are washed thoroughly and cooked with a few spices, turmeric, and ghee."
+    },
+    {
+        "dishName": "Sheek Kebab with Naan (Kebab with Flatbread)",
+        "id": 5,
+        "image": "https://ibb.co/GxLs77j",
+        "completionTime": 25,
+        "dishDescription": "Sheek kebab is a dish of ground beef or mutton, mixed with spice, that is skewered and then roasted over hot coals.Once the kebab is ready, it is served immediately, steaming hot, with Naan and a side of salad and sauce"
+    },
+    {
+        "dishName": "Grill Chicken With Naan Roti",
+        "id": 6,
+        "image": "https://ibb.co/P5PCw97",
+        "completionTime": 25,
+        "dishDescription": "There are different ways of grilling chicken and there are many variations of spices that are used.Naan Roti is an oven-baked leavened flatbread—the perfect food with chicken."
+    },
+    {
+        "dishName": "Rag pudding",
+        "id": 7,
+        "completionTime": 38,
+        "dishDescription": "Ports are used to communicate with the external world. Atoms are used within a program to denote distinguished values. They are written as strings of consecutive alphanumeric characters, the first character being lowercase. I don't even care. The Galactic Empire is nearing completion of the Death Star, a space station with the power to destroy entire planets."
+    },
+    {
+        "dishName": "Cumberland sausage",
+        "id": 8,
+        "completionTime": 26,
+        "dishDescription": "Initially composing light-hearted and irreverent works, he also wrote serious, sombre and religious pieces beginning in the 1930s. Where are my pants? Do you have any idea why this is not working? Make me a sandwich. In 1989 the building was heavily damaged by fire, but it has since been restored."
+    },
+    {
+        "dishName": "Lancashire hotpot",
+        "id": 9,
+        "completionTime": 22,
+        "dishDescription": "They are written as strings of consecutive alphanumeric characters, the first character being lowercase. Do you have any idea why this is not working? He looked inquisitively at his keyboard and wrote another sentence. Ports are used to communicate with the external world. They are written as strings of consecutive alphanumeric characters, the first character being lowercase."
+    }
+]
