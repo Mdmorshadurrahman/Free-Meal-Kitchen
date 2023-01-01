@@ -1,0 +1,44 @@
+[
+    {
+        "dishName": "Shorshe Ilish (Hilsa Fish with Mustard Curry)",
+        "id": 1,
+        "image": "https://i.ibb.co/sWs7shP/01-Hilsa-Fish-in-Black-Mustard-Gravy.jpg",
+        "completionTime": 40,
+        "dishDescription": "Shorshe Ilish is a dish consisting of hilsa fish cooked in savory mustard gravy, commonly served with white rice for a hearty, must-try meal."
+    },
+    {
+        "dishName": "Kacchi Biriyani (Mutton Biriyani)",
+        "id": 2,
+        "image": "https://i.ibb.co/PwbVFLJ/Kacchi-Biryani4-2000x.webp",
+        "completionTime": 60,
+        "dishDescription": "The rice, which is first washed and then mixed with spices, is added on top, before the meat and rice are cooked together. potato is added to the mix to add body to the dish."
+    },
+    {
+        "dishName": "Beef Kala Bhuna (Beef Curry)",
+        "id": 3,
+        "image": "https://i.ibb.co/mBhN5CF/Beef-Kala-Bhuna-Recipe.jpg",
+        "completionTime": 40,
+        "dishDescription": "The meat is cooked with a long list of traditional spices and yogurt. It is cooked for much longer than in other curries, which gives the meat a blackish hue. It also tastes different than regular beef curry."
+    },
+    {
+        "dishName": "Bhuna Khichuri with Dim Bhaji (Yellow Rice with Omelette)",
+        "id": 4,
+        "image": "https://i.ibb.co/74WXxYB/Bhuna-khichuri-recipe.jpg",
+        "completionTime": 45,
+        "dishDescription": "Khichuri, also known as Khichdi in India, is made with rice and lentils and is yellow in color. The rice and lentils are washed thoroughly and cooked with a few spices, turmeric, and ghee."
+    },
+    {
+        "dishName": "Sheek Kebab with Naan (Kebab with Flatbread)",
+        "id": 5,
+        "image": "https://i.ibb.co/VjZHVV8/mla103141-4-horiz.jpg",
+        "completionTime": 25,
+        "dishDescription": "Sheek kebab is a dish of ground beef or mutton, mixed with spice, that is skewered and then roasted over hot coals.Once the kebab is ready, it is served immediately, steaming hot, with Naan and a side of salad and sauce"
+    },
+    {
+        "dishName": "Grill Chicken With Naan Roti",
+        "id": 6,
+        "image": "https://i.ibb.co/Yt1jpyz/7024083803-fdf6004852-b.jpg",
+        "completionTime": 25,
+        "dishDescription": "There are different ways of grilling chicken and there are many variations of spices that are used.Naan Roti is an oven-baked leavened flatbread—the perfect food with chicken."
+    }
+]

@@ -1,0 +1,14 @@
+@import "../../variables/utilities"
+
+.Header
+
+    .title
+        color: $iconColor
+        @include flex($direction:row ,$justifyContent:start ,$alignItems:center ,$displayType: flex)
+    .subtitle
+        @include flex($direction:row ,$justifyContent:start ,$alignItems:center ,$displayType: flex)
+    span
+        display: inline-block
+        margin: 0px 5px
+        color: $iconColor
+        font: larger

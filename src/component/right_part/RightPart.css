@@ -1,0 +1,49 @@
+.wallet .duration, .wallet .plateDetails {
+  background-color: lightgray;
+  display: flex;
+  padding: 0px 4px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.wallet {
+  padding: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: none;
+  flex-direction: column;
+}
+.wallet .chef {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.wallet h1 {
+  color: #0fbcf9;
+}
+.wallet img {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
+}
+.wallet .plate {
+  margin-top: 25px;
+}
+.wallet .plateDetails {
+  margin-top: 15px;
+}
+.wallet .duration {
+  margin-top: 25px;
+}
+.wallet button {
+  margin-top: 20px;
+  width: auto;
+  height: 50px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: black;
+  color: #0fbcf9;
+  font: 700;
+  font-size: 20px;
+}/*# sourceMappingURL=RightPart.css.map */

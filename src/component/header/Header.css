@@ -1,0 +1,19 @@
+.Header .title {
+  color: #0fbcf9;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+}
+.Header .subtitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+}
+.Header span {
+  display: inline-block;
+  margin: 0px 5px;
+  color: #0fbcf9;
+  font: larger;
+}/*# sourceMappingURL=Header.css.map */

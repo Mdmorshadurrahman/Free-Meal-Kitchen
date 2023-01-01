@@ -1,0 +1,42 @@
+// variable Lists
+$standardFont: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+$h1Font: 50px
+$h2Font: 30px
+$h3Font: 20px
+
+$leftBodyColor: rgb(204 251 241 / var(--tw-bg-opacity))
+$rightBodyColor: rgb(224 231 255 / var(--tw-bg-opacity))
+$iconColor: #0fbcf9
+// Function Lists
+
+@mixin flex($direction,$justifyContent,$alignItems,$displayType)
+    display: $displayType
+    justify-content: $justifyContent
+    align-items: $alignItems
+    @if $direction == 'row'
+        flex-direction: row
+
+    @else
+        flex-direction: column
+
+@mixin grid($rowGap,$colGap,$padding)
+    display: grid
+    gap: $rowGap $colGap
+    grid-template-columns: auto auto auto
+    padding: $padding
+
+@mixin button($bgColor,$textColor,$widthButton)
+    width: $widthButton
+    height: 50px
+    border-radius: 15px
+    text-align: center
+    background-color: $bgColor
+    color: $textColor
+    font: 700
+    font-size: $h3Font
+%flexbox
+    background-color: lightgray
+    display: flex
+    padding: 0px 4px
+    align-items: center
+    border-radius: 10px

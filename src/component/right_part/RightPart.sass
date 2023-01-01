@@ -1,0 +1,25 @@
+@import ../../variables/utilities
+
+.wallet
+    padding: 15px
+    @include flex($direction:column ,$justifyContent:start ,$alignItems: none,$displayType:flex )
+    .chef
+        @include flex($direction:row ,$justifyContent:space-around ,$alignItems: center,$displayType:flex )
+    h1
+        color: $iconColor
+    img
+        width: 100px
+        height: auto
+        border-radius: 50px
+    .plate
+        margin-top: 25px
+    .plateDetails
+        @extend %flexbox
+        margin-top: 15px
+    .duration
+        @extend %flexbox
+
+        margin-top: 25px
+    button
+        margin-top: 20px
+        @include button($bgColor: black,$textColor:$iconColor,$widthButton:auto )
