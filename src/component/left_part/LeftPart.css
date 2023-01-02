@@ -1,6 +1,13 @@
+.mainContainer {
+  display: flex;
+  justify-content: none;
+  align-items: none;
+  flex-direction: row;
+}
+
 .cartContainer {
   display: grid;
   gap: 30px 50px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   padding: 10px;
 }/*# sourceMappingURL=LeftPart.css.map */

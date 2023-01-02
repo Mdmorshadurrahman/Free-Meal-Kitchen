@@ -1,4 +1,7 @@
 @import ../../variables/utilities
 
+.mainContainer
+    @include flex($direction:row ,$justifyContent:none ,$alignItems: none,$displayType: flex)
+
 .cartContainer
     @include grid($rowGap:30px ,$colGap:50px ,$padding:10px )

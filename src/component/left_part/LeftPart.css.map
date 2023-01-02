@@ -1,1 +1,1 @@
-{"version":3,"sources":["LeftPart.sass","../../variables/utilities.sass","LeftPart.css"],"names":[],"mappings":"AAEA;ECiBI,aAAA;EACA,cAAA;EACA,qCAAA;EACA,aDnBmD;AEEvD","file":"LeftPart.css"}
+{"version":3,"sources":["LeftPart.sass","../../variables/utilities.sass","LeftPart.css"],"names":[],"mappings":"AAEA;ECUI,aDToF;ECUpF,qBDV8C;ECW9C,iBDXiE;ECa7D,mBAAA;ACXR;;AFAA;ECiBI,aAAA;EACA,cAAA;EACA,gCAAA;EACA,aDnBmD;AEMvD","file":"LeftPart.css"}

@@ -4,6 +4,7 @@
   padding: 0px 4px;
   align-items: center;
   border-radius: 10px;
+  padding: 0px 20px;
 }
 
 .wallet {
@@ -32,8 +33,10 @@
 }
 .wallet .plateDetails {
   margin-top: 15px;
+  justify-content: space-between;
 }
 .wallet .duration {
+  justify-content: space-between;
   margin-top: 25px;
 }
 .wallet button {

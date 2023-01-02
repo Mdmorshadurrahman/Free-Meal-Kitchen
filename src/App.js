@@ -7,12 +7,7 @@ import Header from './component/header/Header';
 function App() {
   return (
     <div className="App min-h-screen" >
-      <div className='w-9/12'>
-        <LeftPart />
-      </div>
-      <div className='w-3/12'>
-        <RightPart />
-      </div>
+      <LeftPart />
     </div>
   );
 }

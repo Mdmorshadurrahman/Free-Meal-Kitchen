@@ -1,7 +1,14 @@
 import React from 'react';
 import { GrLocation } from 'react-icons/gr'
 import './RightPart.css'
-const RightPart = () => {
+const RightPart = (props) => {
+    console.log('in right', props.totalcount)
+    let temp = 0;
+    for (const time of props.totalcount) {
+        temp = temp + time.completionTime;
+    }
+    console.log(temp)
+    // props.totalcount.map(count => console.log(count.competionTime))
     return (
         <div className="wallet h-full bg-indigo-100">
             <div className='chef'>
@@ -17,11 +24,11 @@ const RightPart = () => {
             </div>
             <div className='plateDetails'>
                 <h3>Total Items:</h3>
-                <h3></h3>
+                <h3>{props.totalcount.length}</h3>
             </div>
             <div className='duration'>
                 <h3>Waiting Time: </h3>
-                <h3></h3>
+                <h3>{temp}</h3>
             </div>
             <button >Bless Your Stomach</button>
         </div >
