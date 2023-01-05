@@ -5,6 +5,7 @@
   align-items: center;
   border-radius: 10px;
   padding: 0px 20px;
+  height: 2%;
 }
 
 .wallet {
@@ -49,4 +50,8 @@
   color: #0fbcf9;
   font: 700;
   font-size: 20px;
+}
+.wallet button:hover {
+  background-color: #0fbcf9;
+  color: black;
 }/*# sourceMappingURL=RightPart.css.map */

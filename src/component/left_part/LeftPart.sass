@@ -4,4 +4,8 @@
     @include flex($direction:row ,$justifyContent:none ,$alignItems: none,$displayType: flex)
 
 .cartContainer
-    @include grid($rowGap:30px ,$colGap:50px ,$padding:10px )
+    @include grid($rowGap:30px ,$colGap:50px ,$padding:10px,$autoTimes:auto auto)
+
+@media screen and (max-width: 1360px)
+    .cartContainer
+        @include grid($rowGap:30px ,$colGap:50px ,$padding:10px,$autoTimes:auto)

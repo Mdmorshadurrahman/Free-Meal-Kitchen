@@ -14,7 +14,7 @@
 }
 .carts img {
   border-radius: 15px;
-  width: 400px;
+  width: auto;
   height: 150px;
 }
 .carts h2 {
@@ -28,7 +28,7 @@
   margin-bottom: 10px;
 }
 .carts button {
-  width: 350px;
+  width: 100%;
   height: 50px;
   border-radius: 15px;
   text-align: center;
@@ -36,4 +36,8 @@
   color: #0fbcf9;
   font: 700;
   font-size: 20px;
+}
+.carts button:hover {
+  background-color: #0fbcf9;
+  color: black;
 }/*# sourceMappingURL=CartContainer.css.map */

@@ -2,12 +2,12 @@ import React from 'react';
 import { GrLocation } from 'react-icons/gr'
 import './RightPart.css'
 const RightPart = (props) => {
-    console.log('in right', props.totalcount)
-    let temp = 0;
-    for (const time of props.totalcount) {
-        temp = temp + time.completionTime;
-    }
-    console.log(temp)
+    console.log('in right', props)
+    // let temp = 0;
+    // for (const time of props.totalcount) {
+    //     temp = temp + time.completionTime;
+    // }
+    // console.log(temp)
     // props.totalcount.map(count => console.log(count.competionTime))
     return (
         <div className="wallet h-full bg-indigo-100">
@@ -28,9 +28,13 @@ const RightPart = (props) => {
             </div>
             <div className='duration'>
                 <h3>Waiting Time: </h3>
-                <h3>{temp}</h3>
+                <h3>{props.totalTime}</h3>
             </div>
-            <button >Bless Your Stomach</button>
+            <button onClick={() => props.modalButton(props.totalcount)}>
+                <div className='w-full'>
+                    <label htmlFor="my-modal-3" className='cursor-pointer'>Bless Your Stomach </label>
+                </div>
+            </button>
         </div >
     );
 };

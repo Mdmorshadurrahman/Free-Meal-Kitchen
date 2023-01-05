@@ -10,4 +10,13 @@
   gap: 30px 50px;
   grid-template-columns: auto auto;
   padding: 10px;
+}
+
+@media screen and (max-width: 1360px) {
+  .cartContainer {
+    display: grid;
+    gap: 30px 50px;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
 }/*# sourceMappingURL=LeftPart.css.map */
